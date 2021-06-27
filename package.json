@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-minabs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compute a minimum absolute value incrementally.",
   "license": "Apache-2.0",
   "author": {
