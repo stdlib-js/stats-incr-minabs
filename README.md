@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import incrminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-minabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-minabs/tags). For example,
+
+```javascript
 import incrminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-minabs@v0.2.1-esm/index.mjs';
 ```
 
@@ -100,7 +105,7 @@ min = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-minabs@v0.2.1-esm/index.mjs';
+import incrminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-minabs@esm/index.mjs';
 
 var accumulator;
 var v;
